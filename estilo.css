@@ -1,0 +1,92 @@
+
+section.paisesybanderas {
+    background-color: lightsalmon;
+    font-family: cursive;
+    color:rgb(238, 75, 75);
+    border-top: grey 10px solid;
+    border-bottom: grey 10px solid;
+    border-left: grey 5px solid;
+    border-right: grey 5px solid;
+    
+}
+section.paises {
+    background-color: rgb(110, 218, 96);
+    color:rgb(238, 75, 75);
+    border-top: grey 10px solid;
+    border-bottom: grey 10px solid;
+    border-left: grey 5px solid;
+    border-right: grey 5px solid;
+    
+}
+
+p.verde {
+background-color: green;
+
+}
+p.lrojo  {
+color:red
+}
+
+p.negro {
+    color:black}
+
+h2 {
+    color: black ;
+}
+
+h3 {
+
+}
+
+section.banderas {
+    background-color: blanchedalmond;
+}
+
+table {
+    background-color: goldenrod;
+    width: 75%;
+    text-align: left;
+    border:goldenrod 5px;
+    margin:55px;
+    box-align: left;
+
+}
+
+p.banderasdecolores {
+    background-color: chocolate;
+    color:yellow;
+    border-top:blue 15px dotted;
+    border-right: red 15px dashed;
+    border-left: red 15px dashed;
+    border-bottom: yellow 15px dashed;
+    text-align: center;
+
+}
+
+p.caja {
+    width: 200px ;
+    height: 15px;
+    border:blue 10px solid;
+    background-color: blue;
+    margin: 20px;
+    border: black 5px solid;
+    margin-bottom: 100px;
+    margin-left: 35%;
+}
+
+
+ @media screen and (min-width:400px) and (max-width:500) {
+        html { 
+         background-color: yellow;}
+        }
+
+ @media screen and (max-width:400) {
+            html { 
+             background-color: limegreen;}
+            }
+
+@media (orientation: landscape) {
+           html {
+                background-color: lightblue;
+                }
+              }
